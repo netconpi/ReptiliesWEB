@@ -294,6 +294,10 @@ table tr td:last-child {
     }  
 }
 
+.buy_cs1 a {
+    text-decoration: none;
+}
+
 .pic_cs1 img {
     border-radius: 27px;
     width: 100%;

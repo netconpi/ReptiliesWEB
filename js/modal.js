@@ -52,6 +52,15 @@ function openModal(modal, content_id) {
       Террариум обязательно должен закрываться крышкой, чтобы ящерица не сбежала. Так как бородатые агамы пустынники, уровень влажности для них нужен 30-40%. Температура в террариуме должна быть на уровне 26-29гр. С, температура под лампой обогрева 36-38гр.
       </div>
     `
+  } else if (content_id == "modal_buy") {
+    modal.innerHTML = `
+      <div class="modal-header">
+        <div class="title">Покупка</div>
+      </div>
+      <div class="modal-body">
+      Покупка сейчас не доступна онлайн! Но вы всегда можете набрать по телефону: 88005553535
+      </div>
+    `
   }
   modal.classList.add('active')
   overlay.classList.add('active')
